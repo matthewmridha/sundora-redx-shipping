@@ -1,0 +1,40 @@
+{
+  "name": "redx-shipping-app",
+  "version": "1.0.0",
+  "description": "RedX Shipping Integration for Shopify",
+  "main": "src/index.jsx",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopify",
+    "redx",
+    "shipping"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/app-bridge": "^3.7.9",
+    "@shopify/app-bridge-react": "^3.7.9",
+    "@shopify/polaris": "^10.49.1",
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  }
+}

@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# Redirect all routes to the index.html file (for SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
